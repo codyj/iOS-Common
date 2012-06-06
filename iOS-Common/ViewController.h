@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *hexTextField;
+@property (weak, nonatomic) IBOutlet UILabel *invalidHexValueLabel;
+@property (weak, nonatomic) IBOutlet UIView *colorPreviewView;
+
+- (IBAction)hexValueChanged:(id)sender;
+
 @end

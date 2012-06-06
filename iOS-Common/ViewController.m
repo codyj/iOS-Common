@@ -7,28 +7,43 @@
 //
 
 #import "ViewController.h"
+#import "UIColor+Hex.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+@synthesize hexTextField;
+@synthesize invalidHexValueLabel;
+@synthesize colorPreviewView;
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self.hexTextField becomeFirstResponder];
 }
 
-- (void)viewDidUnload
-{
+- (void)viewDidUnload {
+    [self setHexTextField:nil];
+    [self setInvalidHexValueLabel:nil];
+    [self setColorPreviewView:nil];
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)hexValueChanged:(id)sender {
+    UIColor *color = [UIColor colorWithHexString:self.hexTextField.text];
+    if (color) {
+        self.invalidHexValueLabel.hidden = YES;
+        self.colorPreviewView.backgroundColor = color;
+    }
+    else {
+        self.invalidHexValueLabel.hidden = NO;
+    }
 }
 
 @end

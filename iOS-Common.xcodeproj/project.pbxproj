@@ -15,6 +15,7 @@
 		87482C76157F358800494A6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87482C75157F358800494A6B /* AppDelegate.m */; };
 		87482C79157F358800494A6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87482C78157F358800494A6B /* ViewController.m */; };
 		87482C7C157F358800494A6B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87482C7A157F358800494A6B /* ViewController.xib */; };
+		87482C89157F362400494A6B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 87482C88157F362400494A6B /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		87482C77157F358800494A6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		87482C78157F358800494A6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		87482C7B157F358800494A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		87482C87157F362400494A6B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		87482C88157F362400494A6B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		87482C6B157F358800494A6B /* iOS-Common */ = {
 			isa = PBXGroup;
 			children = (
+				87482C86157F362400494A6B /* UIColor+Hex */,
 				87482C74157F358800494A6B /* AppDelegate.h */,
 				87482C75157F358800494A6B /* AppDelegate.m */,
 				87482C77157F358800494A6B /* ViewController.h */,
@@ -96,6 +100,15 @@
 				87482C73157F358800494A6B /* iOS-Common-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87482C86157F362400494A6B /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				87482C87157F362400494A6B /* UIColor+Hex.h */,
+				87482C88157F362400494A6B /* UIColor+Hex.m */,
+			);
+			path = "UIColor+Hex";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +177,7 @@
 				87482C72157F358800494A6B /* main.m in Sources */,
 				87482C76157F358800494A6B /* AppDelegate.m in Sources */,
 				87482C79157F358800494A6B /* ViewController.m in Sources */,
+				87482C89157F362400494A6B /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +289,7 @@
 				87482C81157F358800494A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
