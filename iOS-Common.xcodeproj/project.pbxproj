@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA28AB5158040DF00D6DA78 /* NSString+EmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA28AB4158040DF00D6DA78 /* NSString+EmailValidation.m */; };
 		87482C66157F358800494A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C65157F358800494A6B /* UIKit.framework */; };
 		87482C68157F358800494A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C67157F358800494A6B /* Foundation.framework */; };
 		87482C6A157F358800494A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C69157F358800494A6B /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CA28AB3158040DF00D6DA78 /* NSString+EmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EmailValidation.h"; sourceTree = "<group>"; };
+		0CA28AB4158040DF00D6DA78 /* NSString+EmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EmailValidation.m"; sourceTree = "<group>"; };
 		87482C61157F358800494A6B /* iOS-Common.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Common.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87482C65157F358800494A6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		87482C67157F358800494A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CA28AB2158040DF00D6DA78 /* NSString+EmailValidation */ = {
+			isa = PBXGroup;
+			children = (
+				0CA28AB3158040DF00D6DA78 /* NSString+EmailValidation.h */,
+				0CA28AB4158040DF00D6DA78 /* NSString+EmailValidation.m */,
+			);
+			path = "NSString+EmailValidation";
+			sourceTree = "<group>";
+		};
 		87482C56157F358800494A6B = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,7 @@
 		87482C6B157F358800494A6B /* iOS-Common */ = {
 			isa = PBXGroup;
 			children = (
+				0CA28AB2158040DF00D6DA78 /* NSString+EmailValidation */,
 				87482C86157F362400494A6B /* UIColor+Hex */,
 				87482C74157F358800494A6B /* AppDelegate.h */,
 				87482C75157F358800494A6B /* AppDelegate.m */,
@@ -178,6 +191,7 @@
 				87482C76157F358800494A6B /* AppDelegate.m in Sources */,
 				87482C79157F358800494A6B /* ViewController.m in Sources */,
 				87482C89157F362400494A6B /* UIColor+Hex.m in Sources */,
+				0CA28AB5158040DF00D6DA78 /* NSString+EmailValidation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
