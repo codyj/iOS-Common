@@ -17,24 +17,15 @@
 - (id)initWithFrame:(CGRect)frame
 {
     if ((self = [super initWithFrame:frame])) {
-        _counterValue = 0;
-        _animationSpeed = kDefaultAnimationSpeed;
-        
-        CGRect labelFrame = CGRectMake(0, 0, frame.size.width, frame.size.height);
-        _counterLabel = [[UILabel alloc] initWithFrame:labelFrame];
-        _counterLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-        _counterLabel.adjustsFontSizeToFitWidth = YES;
-        _counterLabel.font = [UIFont boldSystemFontOfSize:100.0]; // Max font size
-        _counterLabel.textColor = [UIColor whiteColor];
-        _counterLabel.backgroundColor = [UIColor clearColor];
-        _counterLabel.text = @"0";
-        _counterLabel.textAlignment = UITextAlignmentCenter;
-        [self addSubview:_counterLabel];
-        
-        self.clipsToBounds = YES;
+        [self setupForFrame:frame];
     }
     
     return self;
+}
+
+- (void)awakeFromNib
+{
+    [self setupForFrame:self.frame];
 }
 
 - (void)dealloc
@@ -43,6 +34,26 @@
     [super dealloc];
 }
 
+#pragma mark - Private Helpers
+
+- (void)setupForFrame:(CGRect)frame
+{
+    _counterValue = 0;
+    _animationSpeed = kDefaultAnimationSpeed;
+    
+    CGRect labelFrame = CGRectMake(0, 0, frame.size.width, frame.size.height);
+    _counterLabel = [[UILabel alloc] initWithFrame:labelFrame];
+    _counterLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    _counterLabel.adjustsFontSizeToFitWidth = YES;
+    _counterLabel.font = [UIFont boldSystemFontOfSize:100.0]; // Max font size
+    _counterLabel.textColor = [UIColor whiteColor];
+    _counterLabel.backgroundColor = [UIColor clearColor];
+    _counterLabel.text = @"0";
+    _counterLabel.textAlignment = UITextAlignmentCenter;
+    [self addSubview:_counterLabel];
+    
+    self.clipsToBounds = YES;
+}
 
 #pragma mark - Accessors
 
