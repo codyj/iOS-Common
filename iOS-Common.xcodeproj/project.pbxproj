@@ -12,6 +12,12 @@
 		79F159AD15ADFE42000D2685 /* SamplesListViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F159AB15ADFE42000D2685 /* SamplesListViewControllerViewController.m */; };
 		79F159AE15ADFE42000D2685 /* SamplesListViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F159AC15ADFE42000D2685 /* SamplesListViewControllerViewController.xib */; };
 		79F159B115ADFFA9000D2685 /* sample_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79F159B015ADFFA9000D2685 /* sample_list.plist */; };
+		79F159B515AE0307000D2685 /* EmailValidatorSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F159B315AE0307000D2685 /* EmailValidatorSampleViewController.m */; };
+		79F159B615AE0307000D2685 /* EmailValidatorSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F159B415AE0307000D2685 /* EmailValidatorSampleViewController.xib */; };
+		79F159BA15AE056B000D2685 /* valid_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F159B815AE056B000D2685 /* valid_email.png */; };
+		79F159BB15AE056B000D2685 /* valid_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F159B915AE056B000D2685 /* valid_email@2x.png */; };
+		79F159BE15AE069B000D2685 /* invalid_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F159BC15AE069B000D2685 /* invalid_email.png */; };
+		79F159BF15AE069B000D2685 /* invalid_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F159BD15AE069B000D2685 /* invalid_email@2x.png */; };
 		87482C66157F358800494A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C65157F358800494A6B /* UIKit.framework */; };
 		87482C68157F358800494A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C67157F358800494A6B /* Foundation.framework */; };
 		87482C6A157F358800494A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C69157F358800494A6B /* CoreGraphics.framework */; };
@@ -32,6 +38,13 @@
 		79F159AB15ADFE42000D2685 /* SamplesListViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamplesListViewControllerViewController.m; sourceTree = "<group>"; };
 		79F159AC15ADFE42000D2685 /* SamplesListViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SamplesListViewControllerViewController.xib; sourceTree = "<group>"; };
 		79F159B015ADFFA9000D2685 /* sample_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample_list.plist; sourceTree = "<group>"; };
+		79F159B215AE0307000D2685 /* EmailValidatorSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailValidatorSampleViewController.h; sourceTree = "<group>"; };
+		79F159B315AE0307000D2685 /* EmailValidatorSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailValidatorSampleViewController.m; sourceTree = "<group>"; };
+		79F159B415AE0307000D2685 /* EmailValidatorSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailValidatorSampleViewController.xib; sourceTree = "<group>"; };
+		79F159B815AE056B000D2685 /* valid_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = valid_email.png; sourceTree = "<group>"; };
+		79F159B915AE056B000D2685 /* valid_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "valid_email@2x.png"; sourceTree = "<group>"; };
+		79F159BC15AE069B000D2685 /* invalid_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invalid_email.png; sourceTree = "<group>"; };
+		79F159BD15AE069B000D2685 /* invalid_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invalid_email@2x.png"; sourceTree = "<group>"; };
 		87482C61157F358800494A6B /* iOS-Common.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Common.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87482C65157F358800494A6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		87482C67157F358800494A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,7 +55,7 @@
 		87482C73157F358800494A6B /* iOS-Common-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Common-Prefix.pch"; sourceTree = "<group>"; };
 		87482C74157F358800494A6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87482C75157F358800494A6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87482C77157F358800494A6B /* HexColorSampleViewController.h */ = {isa = PBXFileReference; path = HexColorSampleViewController.h; sourceTree = "<group>"; };
+		87482C77157F358800494A6B /* HexColorSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HexColorSampleViewController.h; sourceTree = "<group>"; };
 		87482C78157F358800494A6B /* HexColorSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexColorSampleViewController.m; sourceTree = "<group>"; };
 		87482C7B157F358800494A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HexColorSampleViewController.xib; sourceTree = "<group>"; };
 		87482C87157F362400494A6B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
@@ -79,6 +92,17 @@
 				0CA28AFD1580441D00D6DA78 /* GPFlipCounterView.m */,
 			);
 			path = FlipCounterView;
+			sourceTree = "<group>";
+		};
+		79F159B715AE056B000D2685 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				79F159BC15AE069B000D2685 /* invalid_email.png */,
+				79F159BD15AE069B000D2685 /* invalid_email@2x.png */,
+				79F159B815AE056B000D2685 /* valid_email.png */,
+				79F159B915AE056B000D2685 /* valid_email@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		87482C56157F358800494A6B = {
@@ -122,6 +146,9 @@
 				87482C77157F358800494A6B /* HexColorSampleViewController.h */,
 				87482C78157F358800494A6B /* HexColorSampleViewController.m */,
 				87482C7A157F358800494A6B /* HexColorSampleViewController.xib */,
+				79F159B215AE0307000D2685 /* EmailValidatorSampleViewController.h */,
+				79F159B315AE0307000D2685 /* EmailValidatorSampleViewController.m */,
+				79F159B415AE0307000D2685 /* EmailValidatorSampleViewController.xib */,
 				87482C6C157F358800494A6B /* Supporting Files */,
 			);
 			path = "iOS-Common";
@@ -130,6 +157,7 @@
 		87482C6C157F358800494A6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				79F159B715AE056B000D2685 /* Images */,
 				87482C6D157F358800494A6B /* iOS-Common-Info.plist */,
 				87482C6E157F358800494A6B /* InfoPlist.strings */,
 				87482C71157F358800494A6B /* main.m */,
@@ -203,6 +231,11 @@
 				87482C7C157F358800494A6B /* HexColorSampleViewController.xib in Resources */,
 				79F159AE15ADFE42000D2685 /* SamplesListViewControllerViewController.xib in Resources */,
 				79F159B115ADFFA9000D2685 /* sample_list.plist in Resources */,
+				79F159B615AE0307000D2685 /* EmailValidatorSampleViewController.xib in Resources */,
+				79F159BA15AE056B000D2685 /* valid_email.png in Resources */,
+				79F159BB15AE056B000D2685 /* valid_email@2x.png in Resources */,
+				79F159BE15AE069B000D2685 /* invalid_email.png in Resources */,
+				79F159BF15AE069B000D2685 /* invalid_email@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +253,7 @@
 				0CA28AB5158040DF00D6DA78 /* NSString+EmailValidation.m in Sources */,
 				0CA28AFE1580441D00D6DA78 /* GPFlipCounterView.m in Sources */,
 				79F159AD15ADFE42000D2685 /* SamplesListViewControllerViewController.m in Sources */,
+				79F159B515AE0307000D2685 /* EmailValidatorSampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
