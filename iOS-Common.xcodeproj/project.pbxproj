@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		0CA28AB5158040DF00D6DA78 /* NSString+EmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA28AB4158040DF00D6DA78 /* NSString+EmailValidation.m */; };
 		0CA28AFE1580441D00D6DA78 /* GPFlipCounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA28AFD1580441D00D6DA78 /* GPFlipCounterView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		79F159AD15ADFE42000D2685 /* SamplesListViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F159AB15ADFE42000D2685 /* SamplesListViewControllerViewController.m */; };
+		79F159AE15ADFE42000D2685 /* SamplesListViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F159AC15ADFE42000D2685 /* SamplesListViewControllerViewController.xib */; };
+		79F159B115ADFFA9000D2685 /* sample_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79F159B015ADFFA9000D2685 /* sample_list.plist */; };
 		87482C66157F358800494A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C65157F358800494A6B /* UIKit.framework */; };
 		87482C68157F358800494A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C67157F358800494A6B /* Foundation.framework */; };
 		87482C6A157F358800494A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C69157F358800494A6B /* CoreGraphics.framework */; };
 		87482C70157F358800494A6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87482C6E157F358800494A6B /* InfoPlist.strings */; };
 		87482C72157F358800494A6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87482C71157F358800494A6B /* main.m */; };
 		87482C76157F358800494A6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87482C75157F358800494A6B /* AppDelegate.m */; };
-		87482C79157F358800494A6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87482C78157F358800494A6B /* ViewController.m */; };
-		87482C7C157F358800494A6B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87482C7A157F358800494A6B /* ViewController.xib */; };
+		87482C79157F358800494A6B /* HexColorSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87482C78157F358800494A6B /* HexColorSampleViewController.m */; };
+		87482C7C157F358800494A6B /* HexColorSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87482C7A157F358800494A6B /* HexColorSampleViewController.xib */; };
 		87482C89157F362400494A6B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 87482C88157F362400494A6B /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,10 @@
 		0CA28AB4158040DF00D6DA78 /* NSString+EmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EmailValidation.m"; sourceTree = "<group>"; };
 		0CA28AFC1580441D00D6DA78 /* GPFlipCounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFlipCounterView.h; sourceTree = "<group>"; };
 		0CA28AFD1580441D00D6DA78 /* GPFlipCounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFlipCounterView.m; sourceTree = "<group>"; };
+		79F159AA15ADFE42000D2685 /* SamplesListViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamplesListViewControllerViewController.h; sourceTree = "<group>"; };
+		79F159AB15ADFE42000D2685 /* SamplesListViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamplesListViewControllerViewController.m; sourceTree = "<group>"; };
+		79F159AC15ADFE42000D2685 /* SamplesListViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SamplesListViewControllerViewController.xib; sourceTree = "<group>"; };
+		79F159B015ADFFA9000D2685 /* sample_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample_list.plist; sourceTree = "<group>"; };
 		87482C61157F358800494A6B /* iOS-Common.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Common.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87482C65157F358800494A6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		87482C67157F358800494A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,9 +42,9 @@
 		87482C73157F358800494A6B /* iOS-Common-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Common-Prefix.pch"; sourceTree = "<group>"; };
 		87482C74157F358800494A6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87482C75157F358800494A6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87482C77157F358800494A6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87482C78157F358800494A6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		87482C7B157F358800494A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		87482C77157F358800494A6B /* HexColorSampleViewController.h */ = {isa = PBXFileReference; path = HexColorSampleViewController.h; sourceTree = "<group>"; };
+		87482C78157F358800494A6B /* HexColorSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexColorSampleViewController.m; sourceTree = "<group>"; };
+		87482C7B157F358800494A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HexColorSampleViewController.xib; sourceTree = "<group>"; };
 		87482C87157F362400494A6B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		87482C88157F362400494A6B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,9 +116,12 @@
 				87482C86157F362400494A6B /* UIColor+Hex */,
 				87482C74157F358800494A6B /* AppDelegate.h */,
 				87482C75157F358800494A6B /* AppDelegate.m */,
-				87482C77157F358800494A6B /* ViewController.h */,
-				87482C78157F358800494A6B /* ViewController.m */,
-				87482C7A157F358800494A6B /* ViewController.xib */,
+				79F159AA15ADFE42000D2685 /* SamplesListViewControllerViewController.h */,
+				79F159AB15ADFE42000D2685 /* SamplesListViewControllerViewController.m */,
+				79F159AC15ADFE42000D2685 /* SamplesListViewControllerViewController.xib */,
+				87482C77157F358800494A6B /* HexColorSampleViewController.h */,
+				87482C78157F358800494A6B /* HexColorSampleViewController.m */,
+				87482C7A157F358800494A6B /* HexColorSampleViewController.xib */,
 				87482C6C157F358800494A6B /* Supporting Files */,
 			);
 			path = "iOS-Common";
@@ -124,6 +134,7 @@
 				87482C6E157F358800494A6B /* InfoPlist.strings */,
 				87482C71157F358800494A6B /* main.m */,
 				87482C73157F358800494A6B /* iOS-Common-Prefix.pch */,
+				79F159B015ADFFA9000D2685 /* sample_list.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,7 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				87482C70157F358800494A6B /* InfoPlist.strings in Resources */,
-				87482C7C157F358800494A6B /* ViewController.xib in Resources */,
+				87482C7C157F358800494A6B /* HexColorSampleViewController.xib in Resources */,
+				79F159AE15ADFE42000D2685 /* SamplesListViewControllerViewController.xib in Resources */,
+				79F159B115ADFFA9000D2685 /* sample_list.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,10 +215,11 @@
 			files = (
 				87482C72157F358800494A6B /* main.m in Sources */,
 				87482C76157F358800494A6B /* AppDelegate.m in Sources */,
-				87482C79157F358800494A6B /* ViewController.m in Sources */,
+				87482C79157F358800494A6B /* HexColorSampleViewController.m in Sources */,
 				87482C89157F362400494A6B /* UIColor+Hex.m in Sources */,
 				0CA28AB5158040DF00D6DA78 /* NSString+EmailValidation.m in Sources */,
 				0CA28AFE1580441D00D6DA78 /* GPFlipCounterView.m in Sources */,
+				79F159AD15ADFE42000D2685 /* SamplesListViewControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,12 +234,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		87482C7A157F358800494A6B /* ViewController.xib */ = {
+		87482C7A157F358800494A6B /* HexColorSampleViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				87482C7B157F358800494A6B /* en */,
 			);
-			name = ViewController.xib;
+			name = HexColorSampleViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

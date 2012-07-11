@@ -6,21 +6,21 @@
 //  Copyright (c) 2012 Swingfire LLC. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HexColorSampleViewController.h"
 #import "UIColor+Hex.h"
 
-@interface ViewController ()
+@interface HexColorSampleViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HexColorSampleViewController
 @synthesize hexTextField;
 @synthesize invalidHexValueLabel;
 @synthesize colorPreviewView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setTitle:@"Hex Colors"];
     [self.hexTextField becomeFirstResponder];
 }
 
