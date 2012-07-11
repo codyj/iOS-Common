@@ -18,6 +18,9 @@
 		79F159BB15AE056B000D2685 /* valid_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F159B915AE056B000D2685 /* valid_email@2x.png */; };
 		79F159BE15AE069B000D2685 /* invalid_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F159BC15AE069B000D2685 /* invalid_email.png */; };
 		79F159BF15AE069B000D2685 /* invalid_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F159BD15AE069B000D2685 /* invalid_email@2x.png */; };
+		79F159C315AE0760000D2685 /* FlipCounterSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F159C115AE0760000D2685 /* FlipCounterSampleViewController.m */; };
+		79F159C415AE0760000D2685 /* FlipCounterSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F159C215AE0760000D2685 /* FlipCounterSampleViewController.xib */; };
+		79F159C615AE0A12000D2685 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F159C515AE0A12000D2685 /* QuartzCore.framework */; };
 		87482C66157F358800494A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C65157F358800494A6B /* UIKit.framework */; };
 		87482C68157F358800494A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C67157F358800494A6B /* Foundation.framework */; };
 		87482C6A157F358800494A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87482C69157F358800494A6B /* CoreGraphics.framework */; };
@@ -45,6 +48,10 @@
 		79F159B915AE056B000D2685 /* valid_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "valid_email@2x.png"; sourceTree = "<group>"; };
 		79F159BC15AE069B000D2685 /* invalid_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invalid_email.png; sourceTree = "<group>"; };
 		79F159BD15AE069B000D2685 /* invalid_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invalid_email@2x.png"; sourceTree = "<group>"; };
+		79F159C015AE0760000D2685 /* FlipCounterSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipCounterSampleViewController.h; sourceTree = "<group>"; };
+		79F159C115AE0760000D2685 /* FlipCounterSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipCounterSampleViewController.m; sourceTree = "<group>"; };
+		79F159C215AE0760000D2685 /* FlipCounterSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipCounterSampleViewController.xib; sourceTree = "<group>"; };
+		79F159C515AE0A12000D2685 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		87482C61157F358800494A6B /* iOS-Common.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Common.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87482C65157F358800494A6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		87482C67157F358800494A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F159C615AE0A12000D2685 /* QuartzCore.framework in Frameworks */,
 				87482C66157F358800494A6B /* UIKit.framework in Frameworks */,
 				87482C68157F358800494A6B /* Foundation.framework in Frameworks */,
 				87482C6A157F358800494A6B /* CoreGraphics.framework in Frameworks */,
@@ -125,6 +133,7 @@
 		87482C64157F358800494A6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79F159C515AE0A12000D2685 /* QuartzCore.framework */,
 				87482C65157F358800494A6B /* UIKit.framework */,
 				87482C67157F358800494A6B /* Foundation.framework */,
 				87482C69157F358800494A6B /* CoreGraphics.framework */,
@@ -149,6 +158,9 @@
 				79F159B215AE0307000D2685 /* EmailValidatorSampleViewController.h */,
 				79F159B315AE0307000D2685 /* EmailValidatorSampleViewController.m */,
 				79F159B415AE0307000D2685 /* EmailValidatorSampleViewController.xib */,
+				79F159C015AE0760000D2685 /* FlipCounterSampleViewController.h */,
+				79F159C115AE0760000D2685 /* FlipCounterSampleViewController.m */,
+				79F159C215AE0760000D2685 /* FlipCounterSampleViewController.xib */,
 				87482C6C157F358800494A6B /* Supporting Files */,
 			);
 			path = "iOS-Common";
@@ -236,6 +248,7 @@
 				79F159BB15AE056B000D2685 /* valid_email@2x.png in Resources */,
 				79F159BE15AE069B000D2685 /* invalid_email.png in Resources */,
 				79F159BF15AE069B000D2685 /* invalid_email@2x.png in Resources */,
+				79F159C415AE0760000D2685 /* FlipCounterSampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +267,7 @@
 				0CA28AFE1580441D00D6DA78 /* GPFlipCounterView.m in Sources */,
 				79F159AD15ADFE42000D2685 /* SamplesListViewControllerViewController.m in Sources */,
 				79F159B515AE0307000D2685 /* EmailValidatorSampleViewController.m in Sources */,
+				79F159C315AE0760000D2685 /* FlipCounterSampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
